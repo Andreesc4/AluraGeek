@@ -1,0 +1,9 @@
+.productos__list,
+.productos__list__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+}

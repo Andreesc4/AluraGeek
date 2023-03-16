@@ -1,0 +1,9 @@
+.productos__line {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
