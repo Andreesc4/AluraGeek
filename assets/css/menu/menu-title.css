@@ -1,0 +1,10 @@
+.menu__title {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--color-de-texto-normal);
+}
+
+.menu__title--activo {
+    color: var(--color-de-textoac);
+}
