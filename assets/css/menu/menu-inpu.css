@@ -5,3 +5,49 @@
 .fa-magnifying-glass {
     color: #464646;
 }
+
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    .menu__search {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .menu__input {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 8px;
+        width: 272px;
+        background: #F5F5F5;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        position: relative;
+    }
+
+    .menu__input::placeholder {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: #A2A2A2;
+    }
+
+    .fa-magnifying-glass {
+        position: absolute;
+        color: #A2A2A2;
+        padding-right: 16px;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}

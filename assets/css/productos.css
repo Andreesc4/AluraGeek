@@ -7,3 +7,19 @@
     padding: 16px;
     gap: 16px;
 }
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+
+    .productos__starwars,
+    .productos__consolas,
+    .productos__diversos {
+        padding: 32px;
+        align-items: stretch;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}

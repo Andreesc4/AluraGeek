@@ -7,3 +7,17 @@
     gap: 16px;
     background: #EAF2FD;
 }
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+
+    .footer {
+        flex-direction: row;
+        padding: 32px;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}

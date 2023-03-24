@@ -6,3 +6,16 @@
     line-height: 26px;
     color: #FFFFFF;
 }
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    .banner__title {
+        font-size: 52px;
+        line-height: 61px;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}

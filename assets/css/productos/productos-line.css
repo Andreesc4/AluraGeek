@@ -7,3 +7,16 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+
+    .productos__line {
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}

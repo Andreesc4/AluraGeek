@@ -5,3 +5,31 @@
     padding: 0px;
     gap: 22px;
 }
+
+.footer__izquierda {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+
+    .footer__container {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 16px;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .footer__izquierda {
+        align-items: flex-start;
+        gap: 16px;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
