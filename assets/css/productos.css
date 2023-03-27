@@ -22,4 +22,11 @@
 
 @media (min-width: 992px) {}
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+
+    .productos__starwars,
+    .productos__consolas,
+    .productos__diversos {
+        padding: 2rem 3.5rem;
+    }
+}

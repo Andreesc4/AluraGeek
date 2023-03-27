@@ -30,6 +30,12 @@
     }
 }
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .footer__izquierda {
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+    }
+}
 
 @media (min-width: 1200px) {}
