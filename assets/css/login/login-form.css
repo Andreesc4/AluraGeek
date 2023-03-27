@@ -1,0 +1,89 @@
+.login__formcampo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: relative;
+    width: 270px;
+}
+
+.login__input_contrasenia,
+.login__input_email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 0.5rem 0.5rem 1rem;
+    gap: 8px;
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid #C8C8C8;
+    outline: none;
+    border-radius: 0.5rem;
+    font-size: 16px;
+}
+
+.login__input_contrasenia::placeholder,
+.login__input_email::placeholder {
+    visibility: hidden;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #A2A2A2;
+}
+
+.login__label {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 16px;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: #A2A2A2;
+    transition: all 250ms;
+}
+
+.login__input_contrasenia:focus,
+.login__input_email:focus {
+    border-bottom: 2px solid #2A7AE4;
+    transition: all 250ms;
+}
+
+.login__input_contrasenia:not(:placeholder-shown)+.login__label,
+.login__input_contrasenia:focus+.login__label {
+    font-size: 0.7rem;
+    top: 0.1rem;
+    color: #2A7AE4;
+    transition: all 100;
+}
+
+.login__input_email:not(:placeholder-shown)+.login__label,
+.login__input_email:focus+.login__label {
+    font-size: 0.7rem;
+    top: 0.1rem;
+    color: #2A7AE4;
+    transition: all 100;
+}
+
+@media (min-width: 768px) {
+    .login__formcampo {
+        width: 340px;
+    }
+}
+
+@media (min-width: 992px) {
+    .banner {
+        padding: 2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .banner {
+        padding: 2rem 3.5rem;
+    }
+}
