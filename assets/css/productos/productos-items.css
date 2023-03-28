@@ -24,3 +24,26 @@
     line-height: 16px;
     color: #2A7AE4;
 }
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    .producto__item__img {
+        width: 164px;
+        height: 174px;
+    }
+}
+
+@media (min-width: 992px) {
+    .producto__item__img {
+        width: 170px;
+        height: 174px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .producto__item__img {
+        width: 176px;
+        height: 174px;
+    }
+}

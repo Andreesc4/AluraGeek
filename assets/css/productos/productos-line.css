@@ -1,4 +1,5 @@
-.productos__line {
+.productos__line,
+.productos__todos .productos__line {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -7,6 +8,8 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
 
 @media (min-width: 576px) {}
 
