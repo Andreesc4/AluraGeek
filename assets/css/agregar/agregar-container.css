@@ -1,0 +1,21 @@
+.agregar__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 100%;
+}
+
+@media (min-width: 769px) {
+    .agregar__container {
+        width: auto;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .agregar__container {
+        width: auto;
+    }
+}

@@ -1,0 +1,59 @@
+.agregar__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.agregar__name,
+.agregar__precio,
+.agregar__categoria,
+.agregar__textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: 8px;
+    border: none;
+    border-bottom: 2px solid #C8C8C8;
+    outline: none;
+    border-radius: 0.5rem;
+    font-size: 16px;
+    resize: none;
+}
+
+.agregar__name::placeholder,
+.agregar__precio::placeholder,
+.agregar__categoria::placeholder,
+.agregar__textarea::placeholder {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #A2A2A2;
+}
+
+.agregar__name:focus,
+.agregar__precio:focus,
+.agregar__categoria:focus,
+.agregar__textarea:focus {
+    border-bottom: 2px solid #2A7AE4;
+    transition: all 250ms;
+}
+
+.agregar__boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 100%;
+    height: 40px;
+    background: #2A7AE4;
+    border: none;
+    color: #ffffff;
+}

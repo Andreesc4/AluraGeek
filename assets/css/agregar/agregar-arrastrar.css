@@ -1,0 +1,50 @@
+.agregar__archivos {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.agregar__archivos p {
+    display: none;
+}
+
+.agregar__arrastrar {
+    background-color: #FFF;
+    border: #2a7ae49e 4px dashed;
+    width: 250px;
+    height: 130px;
+    padding: 8px;
+    font-size: 18px;
+    display: none;
+}
+
+.agregar__arrastrar i.fa-solid.fa-image {
+    color: #A2A2A2;
+    font-size: 35px;
+}
+
+.agregar__arrastrar h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #A2A2A2;
+}
+
+@media (min-width: 992px) {
+    .agregar__arrastrar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+
+    }
+
+    .agregar__archivos p {
+        display: block;
+    }
+}
