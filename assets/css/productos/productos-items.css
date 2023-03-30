@@ -25,12 +25,32 @@
     color: #2A7AE4;
 }
 
+.productos__icons {
+    position: fixed;
+    background: fixed;
+    gap: 8px;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    width: 151px;
+    padding: 5px 5px 0 0;
+    color: white;
+    opacity: 0.8;
+}
+
+
+
 @media (min-width: 576px) {}
 
 @media (min-width: 768px) {
     .producto__item__img {
         width: 164px;
         height: 174px;
+    }
+
+    .productos__icons {
+        width: 158px;
     }
 }
 
@@ -39,11 +59,19 @@
         width: 170px;
         height: 174px;
     }
+
+    .productos__icons {
+        width: 165px;
+    }
 }
 
 @media (min-width: 1200px) {
     .producto__item__img {
         width: 176px;
         height: 174px;
+    }
+
+    .productos__icons {
+        width: 171px;
     }
 }

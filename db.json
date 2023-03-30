@@ -1,0 +1,12 @@
+{
+    "producto": [
+        {
+            "name": "Alura Latam",
+            "imageUrl": "https://media.discordapp.net/attachments/1090303733382004799/1090980014968811520/1718c6f0-3489-455b-b4d2-68fa558253fe.jpg?width=603&height=603",
+            "price": "20.900",
+            "id": 1,
+            "section": "Star Wars",
+            "description": ""
+        }
+    ]
+}
